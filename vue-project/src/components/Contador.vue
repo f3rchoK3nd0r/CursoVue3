@@ -7,20 +7,20 @@
 </template>
 
 <script setup>
-  import {ref} from 'vue';
-  const contador = ref(0);
+  import {ref} from 'vue'
+  const contador = ref(0)
   const incrementar = () =>{
-    contador.value++;
+    contador.value++
   }
   const decrementar = () =>{
-    contador.value--;
+    contador.value--
   }
 
 </script>
 
 <style scoped>
 p {
-  color: greenyellow;
+  color: blue;
   width: 35px;
 }
 </style>
